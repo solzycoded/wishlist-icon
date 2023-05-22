@@ -1,0 +1,48 @@
+.card-img-overlay {
+    padding: 0 !important; 
+    /* text-align: right; */
+}
+
+.wrapper {
+    padding: 2px 2px;
+    z-index: 99;
+}
+
+.icon-wishlist {
+    cursor: pointer;
+    width: 18px;
+    height: 17px;
+}
+
+.icon-wishlist i {
+    font-size: 1.2em; 
+    /* position: absolute;  */
+    background-color: transparent; 
+    border-radius: 50%; 
+	width: 50px; 
+    padding: 0px 4px 0px 4px !important;
+    margin: 0 !important;
+}
+
+.icon-wishlist i:hover {
+    color: red;
+    opacity: 0.9;
+}
+
+.saved-to-wishlist {
+    color: red;
+    opacity: 0.9;
+}
+
+.removed-from-wishlist {
+    color: gray;
+    opacity: .7;
+}
+
+						
+@keyframes wishlist-ani {
+    0%   {transform: scale(1);}
+    25%  {transform: scale(.5);}
+    50%  {transform: scale(1.2);}
+    100% {transform: scale(1);}
+}
